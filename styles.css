@@ -1,0 +1,100 @@
+/* Base Reset and Styling */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Common full-screen section style */
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Section-specific styles */
+
+.screen1 {
+  background-color: #1a1a2e;
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.screen1 h1 {
+  font-size: 7rem;
+  margin-bottom: 1rem;
+  color: #ffd369;
+  font-weight: bolder;
+}
+
+.screen1 p {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+/* Screen 2 */
+.screen2 {
+  background-color: #ff4c29;
+  color: #fff;
+  font-family: "Georgia", serif;
+}
+
+.screen2 p {
+  font-size: 3.5rem;
+  font-weight: 600;
+  max-width: 80%;
+}
+
+/* Screen 3 */
+.screen3 {
+  background-color: #4caf50;
+  color: #e8f5e9;
+  font-family: "Courier New", monospace;
+}
+
+.screen3 p {
+  font-size: 3.5rem;
+  font-weight: 600;
+  max-width: 80%;
+}
+
+/* Screen 4 */
+.screen4 {
+  background-color: #0f3460;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+}
+
+.screen4 p {
+  font-size: 4.5rem;
+  font-weight: 600;
+  max-width: 80%;
+}
+
+/* Screen 5 */
+.screen5 {
+  background-color: #ffc107;
+  color: #1a1a2e;
+  font-family: "Verdana", sans-serif;
+}
+
+.screen5 p {
+  font-size: 4rem;
+  font-weight: 700;
+  max-width: 80%;
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 768px) {
+  .screen1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .screen p {
+    font-size: 1.5rem;
+  }
+}
